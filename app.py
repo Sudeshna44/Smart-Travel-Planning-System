@@ -34,7 +34,7 @@ with st.sidebar:
     )
     model = st.text_input(
         "Model ID",
-        value=os.getenv("GEMINI_MODEL", "gemini-3.8-flash"),
+        value=os.getenv("GEMINI_MODEL", "gemini-3-flash-preview"),
         help="Enter a Gemini model ID available to your Google AI Studio project.",
     )
     st.caption("Set GEMINI_API_KEY and GEMINI_MODEL in .env to avoid re-entering them.")

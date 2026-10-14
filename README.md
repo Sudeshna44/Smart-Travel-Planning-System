@@ -33,7 +33,7 @@ Alternatively, enter the API key in the app sidebar. It is used only for the cur
 ## Configuration
 
 - `GEMINI_API_KEY`: Google AI Studio API key (required).
-- `GEMINI_MODEL`: Gemini model ID available to your Google AI Studio project (defaults to `gemini-3.8-flash`).
+- `GEMINI_MODEL`: Gemini model ID available to your Google AI Studio project (defaults to `gemini-3-flash-preview`).
 
 Budget and price inputs are in Indian rupees (INR). The displayed sample amounts are planning assumptions, not currency conversions or provider quotes. The search, weather, and route sources are public services and may have rate limits, coverage limits, or downtime. Weather forecasts are only available for supported dates. Hotel and transport amounts entered in the form are planning assumptions, not provider prices. The prototype does not make reservations or purchases.
 

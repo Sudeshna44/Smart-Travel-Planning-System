@@ -21,12 +21,12 @@ def test_other_errors_show_google_configuration_guidance():
 def test_crew_uses_gemini_model_with_supplied_key():
     crew = create_travel_crew(
         api_key="test-key",
-        model="gemini-3.8-flash",
+        model="gemini-3-flash-preview",
         trip={},
         research={},
         budget={},
         alternative={},
     )
 
-    assert crew.agents[0].llm.model == "gemini-3.8-flash"
+    assert crew.agents[0].llm.model == "gemini-3-flash-preview"
     assert crew.agents[0].llm.provider == "gemini"
